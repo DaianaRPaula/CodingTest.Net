@@ -9,17 +9,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Appl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{2AA87C49-4000-45E7-AD90-D8948C141560}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest.Net.Domain", "CodingTest.Net.Domain\CodingTest.Net.Domain.csproj", "{936C1A21-23F6-4AEF-9966-6BEDCB4C3B33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingTest.Net.Domain", "CodingTest.Net.Domain\CodingTest.Net.Domain.csproj", "{936C1A21-23F6-4AEF-9966-6BEDCB4C3B33}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{32656CC3-C965-42F0-B62F-CF8910C95966}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{2FD6CFE5-84FB-4425-B3EA-47AE2ACA5D28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest.Net.Service", "CodingTest.Net.Service\CodingTest.Net.Service.csproj", "{143DEBEA-8CF2-4E28-AEB9-1579026968E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingTest.Net.Service", "CodingTest.Net.Service\CodingTest.Net.Service.csproj", "{143DEBEA-8CF2-4E28-AEB9-1579026968E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{CAF597DB-608B-490A-AF8D-A6A2BA8C27EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest.Net.Infra.Data", "CodingTest.Net.Infra.Data\CodingTest.Net.Infra.Data.csproj", "{EC511581-9D13-4DE4-B252-2C386F506074}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CodingTest.Net.Infra.Data", "CodingTest.Net.Infra.Data\CodingTest.Net.Infra.Data.csproj", "{EC511581-9D13-4DE4-B252-2C386F506074}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Test", "5-Test", "{95833101-886C-4A07-88C8-444D8B287C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTest.Net.UnitTest", "CodingTest.Net.UnitTest\CodingTest.Net.UnitTest.csproj", "{734BE4DE-42DF-42BB-98FC-8CBD1A264B07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +47,10 @@ Global
 		{EC511581-9D13-4DE4-B252-2C386F506074}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC511581-9D13-4DE4-B252-2C386F506074}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC511581-9D13-4DE4-B252-2C386F506074}.Release|Any CPU.Build.0 = Release|Any CPU
+		{734BE4DE-42DF-42BB-98FC-8CBD1A264B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{734BE4DE-42DF-42BB-98FC-8CBD1A264B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{734BE4DE-42DF-42BB-98FC-8CBD1A264B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{734BE4DE-42DF-42BB-98FC-8CBD1A264B07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{143DEBEA-8CF2-4E28-AEB9-1579026968E2} = {32656CC3-C965-42F0-B62F-CF8910C95966}
 		{CAF597DB-608B-490A-AF8D-A6A2BA8C27EB} = {2FD6CFE5-84FB-4425-B3EA-47AE2ACA5D28}
 		{EC511581-9D13-4DE4-B252-2C386F506074} = {CAF597DB-608B-490A-AF8D-A6A2BA8C27EB}
+		{734BE4DE-42DF-42BB-98FC-8CBD1A264B07} = {95833101-886C-4A07-88C8-444D8B287C4D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {11DFA468-2B07-4B60-B654-72DC5379CC86}
