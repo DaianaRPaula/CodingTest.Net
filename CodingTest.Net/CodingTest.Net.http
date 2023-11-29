@@ -1,0 +1,29 @@
+@CodingTest.Net_HostAddress = https://localhost:7149
+
+
+POST {{CodingTest.Net_HostAddress}}/api/atm/Payout
+Content-Type: application/json
+
+10
+
+###
+
+POST {{CodingTest.Net_HostAddress}}/api/customer
+Content-Type: application/json
+
+[
+   {
+      "firstName":"Aaaa",
+      "lastName":"Bbbb",
+      "age":20,
+      "id":5
+   },
+   {
+      "firstName":"Bbbb",
+      "lastName":"Cccc",
+      "age":24,
+      "id":6
+   }
+]
+
+###
